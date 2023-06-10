@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This is the meta data that is visible to the user, but links to the neessary stylesheet and provides the title of the page on the browser.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Temuulen Tsengel's Portfolio</title>
+</head>
+<!--The body information is visible to the user, and is styled by element, class, or id selectors in the linked CSS file.-->
+<body>
+    <header>
+        <!--Title of the page at the very top, left.-->
+        <h1>Temuulen Tsengel</h1>
+        <!--Navigation bar at the very top, right.-->
+        <nav>
+            <!--Links directing user to respective sections of the page when clicked.-->
+            <p><a href="#about">About Me</a></p>
+            <p><a href="#work">My Work</a></p>
+            <p><a href="#contact">Contact Me</a></p>
+        </nav>
+    </header>
+    <!--Banner image with subtitle over it.-->
+    <section id="banner" alt="An close up image of circuits inside of a device.">
+        <h2>Welcome to my Portfolio!</h2>
+    </section>
+    <!--The main section of the page's content divided into 3 subsections.-->
+    <main>
+        <article id="about" class="sections">
+            <h3>About<br>Me</h3>
+            <div>
+                <img src="./assets/me.jpg">
+                <p id="aboutText">Hello and welcome to my online portfolio! My name is Temuulen Tsengel, but everybody calls me Tem, and I go by she/her pronouns. I am currently enrolled in the UofT Edx Full Stack Development Bootcamp, where I am learning to code and become a web developer! I will continue to update this page to reflect my work and projects as I complete them.<br><br>A little bit about me: I am from a country called Mongolia, where I was born and raised. I came to Canada when I was in high school, and lived in Vancouver for a while before eventually moving to Toronto to complete my undergraduate studies. I graduated from University of Toronto with an Honour's Bachelor of Arts in 2021, and have since been working as a full-time coordinator for the University. A random fact about me: I help out my sister in running her small business named Solly's Library where she sells handmade crochet items, and appears at pop-up markets around downtown Toronto!</p>
+            </div>
+        </article>
+        <!--3 rows of boxes.-->
+        <article id="work" class="sections">
+            <h3>My<br>Work</h3>
+            <div>
+                <article class="work-rows">
+                    <div class="main-project" id="project-1" alt="Hands working on a computer with codes displayed on the screen.">
+                        <h4 class="title">Upcoming Project 1</h4>
+                    </div>
+                </article>
+                <article class="work-rows">
+                    <div class="sub-project" id="project-2" alt="Close up image of circuits across a red background inside a device.">
+                        <h4 class="title">Upcoming Project 2</h4>
+                    </div>
+                    <div class="sub-project" id = "project-3" alt="Transparent machine exposing the technical machinery and wiring inside.">
+                        <h4 class="title">Upcoming Project 3</h4>
+                    </div>
+                </article>
+                <article class="work-rows">
+                    <div class="sub-project" id="project-4" alt="Woman Holding a tablet with various images on the screen.">
+                        <h4 class="title">Upcoming Project 4</h4>
+                    </div>
+                    <div class="sub-project" id="project-5" alt="Close up of inner workers of computer disk with various circuits and lights.">
+                        <h4 class="title">Upcoming Project 5</h4>
+                    </div>
+                </article>
+            </div>
+        </article>
+        <!--Last section of main tag.-->
+        <article id="contact" class="sections">
+            <h3>Contact<br>Me</h3>
+            <figure id="contact-items"><!--Links below lead to external pages.-->
+                <p>647.917.5497</p>
+                <p>∘</p>
+                <p><a href="mailto:tem.tsengel@utoronto.ca">tem.tsengel@utoronto.ca</a></p>
+                <p>∘</p>
+                <p><a href="https://www.linkedin.com/in/temuulen-t-0b53a8116/">Linkedin</a></p>
+                <p>∘</p>
+                <p><a href="https://github.com/temuts">Github</a></p>
+            </figure>
+        </article>
+        <!--Closing element to finish off the page.-->
+        <footer>
+            <h5>Thank you!</h5>
+        </footer>
+
+    </main>
+
+</body>
+</html>

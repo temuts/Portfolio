@@ -1,0 +1,257 @@
+* {
+    /* outline: 1px solid red;  *//* These outlines were used to visualize the elements to understand how to style them. */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header spans entire page width. */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+/* Stylization of my name as the title of the page. */
+h1 {
+    margin: 15px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+/* Stylization of the nav bar to appear in line and properly spaced. */
+nav {
+    /* outline: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Spacing nav elements. */
+nav p {
+    margin: 15px 25px 15px 15px;
+}
+/* Nav link pseudo classes, */
+nav p a:link{
+    color: rgb(255, 255, 255);
+}
+
+nav p a:visited{
+    color: rgb(188, 188, 188);
+}
+/* styling banner element with background image. */
+#banner {
+    /* outline: 2px solid red; */
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(../assets/background.jpg);
+    background-position: center;
+}
+/* Styling subtitle on top of banner element. */
+#banner h2 {
+    display: inline;
+    font-size: 30px;
+    margin: 12px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+/* Element placement in main section. */
+.sections {
+    /* outline: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+}
+/* Main section title styles. */
+.sections h3 {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid rgb(119, 119, 119);
+    font-size: 30px;
+}
+/* Main section content width in relation to page. */
+.sections div {
+    width: 70%;
+}
+/* Image styling. */
+#about img {
+    height: 140px;
+    margin: 20px 10px 4px 20px;
+    border-radius: 100%;
+    border: 4px black solid;
+}
+/* Paragraph styling. */
+#aboutText {
+    margin-left: 20px;
+}
+/* Space between image rows. */
+.work-rows {
+    /* outline: 2px solid black; */
+    margin: 20px;
+    display: flex;
+}
+/* Each row in id=work element height. */
+.work-rows div {
+    /*outline: 4px solid red; */
+    height: 100px;
+}
+/* First project size and style. */
+.main-project {
+    width: 100% !important;
+    border: 5px solid black;
+}
+/* 2nd - 5th project size and style. */
+.sub-project {
+    width: 50% !important;
+    border: 5px solid black;
+}
+/* Projects inside id=work element. */
+#project-1 {
+    background-image:url("https://images.pexels.com/photos/12899188/pexels-photo-12899188.jpeg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    filter:contrast(.6);
+    position: relative;
+}
+/* Project 1 pseudo clases. */
+#project-1:hover {
+    filter:contrast(100%);
+}
+
+#project-1:hover .title {
+    opacity: 1;
+}
+/* Projects title element. */
+.title {
+    background-color: rgb(0, 0, 0, 0.5);
+    color:aliceblue;
+    position:absolute;
+    bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.6s;
+}
+/* Projects inside id=work element. */
+#project-2 {
+    background-image:url("https://images.pexels.com/photos/6432056/pexels-photo-6432056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-right: 10px;
+    filter:contrast(.6);
+}
+
+#project-2:hover {
+    filter:contrast(100%);
+}
+
+#project-2:hover .title {
+    opacity: 1;
+}
+
+#project-3 {
+    background-image:url("https://images.pexels.com/photos/246753/pexels-photo-246753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-left: 10px;
+    filter:contrast(.6);
+}
+
+#project-3:hover {
+    filter:contrast(100%);
+}
+
+#project-3:hover .title {
+    opacity: 1;
+}
+
+#project-4 {
+    background-image:url("https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-right: 10px;
+    filter:contrast(.6);
+}
+
+#project-4:hover {
+    filter:contrast(100%);
+}
+
+#project-4:hover .title {
+    opacity: 1;
+}
+
+#project-5 {
+    background-image:url("https://images.pexels.com/photos/10556474/pexels-photo-10556474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-left: 10px;
+    filter:contrast(.6);
+}
+
+#project-5:hover {
+    filter:contrast(100%);
+}
+
+#project-5:hover .title {
+    opacity: 1;
+}
+/* Contact Me element. */
+#contact {
+    display: flex;
+}
+/* Contact Me elements styling and placement. */
+#contact-items {
+    /* outline: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contact-items p {
+    /* outline: 2px solid blue; */
+    margin: 10px;
+    font-size: 18px;
+}
+
+#contact-items p a:link {
+    color: rgb(0, 0, 0);
+}
+
+#contact-items p a:active {
+    color: rgb(223, 0, 253);
+}
+
+#contact-items p a:visited {
+    color: rgb(98, 89, 105);
+}
+/* Footer element styling. */
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h5 {
+    color: white;
+    margin: 30px;
+    font-size: 15px;
+}
