@@ -1,4 +1,5 @@
 # Online Portfolio 
+https://temuts.github.io/Portfolio/
 
 ## Description
 This projects serves to act as an online collection of all projects and published work completed by myself. As I publish more content, and have more projects to show for myself, I will update the page as well, so that all such information can be found easily within one place that is accessible to anybody. This project was built to provide such content in an clean and easy way for anybody with access to the internet to access, and also to provide a personal touch over the front-end of the design. The portfolio itself showcases what I can do as a front-end developer, while simultaneously acting as a resource for which other pertinent information regarding my capabilities can be accessed and presented. 
