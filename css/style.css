@@ -145,7 +145,7 @@ nav p a:visited{
 }
 /* Projects inside id=work element. */
 #project-2 {
-    background-image:url("https://images.pexels.com/photos/6432056/pexels-photo-6432056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image:url("/assets/login.png");
     background-size: cover;
     background-position: center;
     height: 300px;
