@@ -145,7 +145,7 @@ nav p a:visited{
 }
 /* Projects inside id=work element. */
 #project-2 {
-    background-image:url("/assets/login.png");
+    background-image:url("../assets/login.png");
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -162,7 +162,7 @@ nav p a:visited{
 }
 
 #project-3 {
-    background-image:url("https://images.pexels.com/photos/246753/pexels-photo-246753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image:url("../assets/fithub.png");
     background-size: cover;
     background-position: center;
     height: 300px;
